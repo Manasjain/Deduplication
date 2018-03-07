@@ -1,7 +1,7 @@
 # Deduplication
 Deduplicates dataset using csvdedupe.
 
-1.) clone this repository to your machine.
+1.) Clone this repository to your machine.
 
 2.) Create a python virtualenv for your project.	
 
@@ -11,10 +11,10 @@ Deduplicates dataset using csvdedupe.
 	 
 	source project_name/bin/activate.
 
-4.) change the directory to your cloned repository.
+4.) Change the directory to your cloned repository.
 
-5.) csvdedupe takes a messy input file or STDIN pipe and identifies duplicates. Thus, provide an input file, field names, and output file:
+5.) Csvdedupe takes a messy input file or STDIN pipe and identifies duplicates. Thus, provide an input file, field names, and output file:
 
 	csvdedupe Deduplication/dataset.csv \  --field_names ln dob gn fn \    --output_file output.csv
 
-6.) output.csv contains an additional column with cluster id.
+6.) Output.csv contains an additional column with cluster id.
